@@ -8,32 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
+/* default font for the page */
 div, section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* different font for the header and footer */
+header, footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* other header and footer formatting */
 header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header, footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 footer {
@@ -46,10 +40,21 @@ footer h2 {
     font-size: 20px;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* font size for p tags */
+p {
+    font-size: 16px;
+}
+
 .seo {
     color: #d9dcd6;
 }
 
+/* turn the empty div into an image of a marketing meeting */
 .hero {
     height: 800px;
     width: 100%;
